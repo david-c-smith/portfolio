@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+	<title>David Smith</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+<body class="loading">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="main">
+
+			<!-- Header -->
+			<header id="header">
+				<script src="jquery-1.12.0.js">
+				</script>
+				<script src="typed.js">
+				$(function(){
+		$("testing").typed({
+			strings: ["First sentence.", "Second sentence."],
+			typeSpeed: 0
+		});
+});
+				</script>
+				<img src="logo.png"/>
+
+				<h1>David Smith</h1>
+				<nav>
+					<p>Software engineer</p>
+					<li><a href="https://drive.google.com/file/d/0B8jg3cRN_E-RbDRia3hkZmtLdms/view?usp=sharing" class="icon fa-file-text-o"><span class="label">Resume</span></a></li>
+					<li><a href="https://www.linkedin.com/in/david-smith-443613104" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+					<li><a href="https://github.com/david-c-smith" class="icon fa-github"><span class="label">Github</span></a></li>
+					<li><a href="mailto:dcsmith0515@gmail.com"class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<script>
+		window.onload = function() { document.body.className = ''; }
+		window.ontouchmove = function() { return false; }
+		window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+	</html>
